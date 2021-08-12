@@ -1,21 +1,24 @@
-######### cs 523
-
+# cs 523
+====  
 #### requirement environment
-python 3
-torchvision==0.10.0
-numpy==1.20.3
-pandas==1.2.4
-torch==1.9.0
-matplotlib==3.3.4
-scikit_learn==0.24.2
+-------  
+
+<br>python 3\<br>
+<br>torchvision==0.10.0\<br>
+<br>numpy==1.20.3\<br>
+<br>pandas==1.2.4\<br>
+<br>torch==1.9.0\<br>
+<br>matplotlib==3.3.4\<br>
+<br>scikit_learn==0.24.2\<br>
 
 
-###########目录结构描述
-├── Readme.md                   // help
-├── real_time_detection.py          //the only file that need to run to start the system
-├── models.py                       //contains different models we used  in this project
-├── model_AlexNet.pkl       //trained alex net model's parameter
-├── model_GoogLeNet.pkl       //trained GoogLeNet model's parameter
-├── model_densenet201.pkl       //trained densenet201 model's parameter
-├── CS523 Project Presentation.pptx      //presentation ppt
-├── NeurIPS_2021-9.pdf           //paper
+####file introduction
+-------  
+<br>├── Readme.md                   // help\<br>
+<br>├── real_time_detection.py          //the only file that need to run to start the system\<br>
+<br>├── models.py                       //contains different models we used  in this project\<br>
+<br>├── model_AlexNet.pkl       //trained alex net model's parameter\<br>
+<br>├── model_GoogLeNet.pkl       //trained GoogLeNet model's parameter\<br>
+<br>├── model_densenet201.pkl       //trained densenet201 model's parameter\<br>
+<br>├── CS523 Project Presentation.pptx      //presentation ppt\<br>
+<br>├── NeurIPS_2021-9.pdf           //paper\<br>
