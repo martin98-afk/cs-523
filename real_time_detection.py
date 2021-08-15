@@ -107,7 +107,7 @@ def process_video(path,output_path,model):
 
     
 if __name__ == '__main__':
-    model = torch.load('model/model_GoogLeNet.pkl')
+    model = torch.load('model_GoogLeNet.pkl')
 
     caffeModel = "res10_300x300_ssd_iter_140000.caffemodel"
     prototextPath = "deploy.prototxt.txt"
